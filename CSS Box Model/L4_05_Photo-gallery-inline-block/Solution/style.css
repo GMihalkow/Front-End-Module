@@ -1,0 +1,11 @@
+.gallery{
+    list-style: none;
+}
+
+.gallery > li {
+    display: inline-block;
+    /* * Border width - **0.4rem**
+    * Border color - **black**
+    * Border style - **solid** */
+    border: 0.4rem solid black;
+}
