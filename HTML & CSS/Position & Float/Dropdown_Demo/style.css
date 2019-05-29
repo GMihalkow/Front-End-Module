@@ -1,0 +1,51 @@
+/* CSS Cleaner */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > ul {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+ul > li {
+    background-color: #0f5;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul > li:hover {
+    background-color: #f00;
+}
+
+nav > ul > li > a {
+    color: #fff;
+}
+
+#inner-nav{
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+#other-link{
+    position: relative;
+}
+
+#other-link:focus,:hover > #inner-nav{
+    display: block;
+}
+
