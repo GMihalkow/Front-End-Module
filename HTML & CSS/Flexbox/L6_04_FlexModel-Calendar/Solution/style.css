@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+.container, .week, .notes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 65vw;
+    height: 60vh;
+}
+
+.week { 
+    max-width: 40vw;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    height: inherit;
+}
+
+.week > span {
+    border: 1px black solid;
+    width: 8vw;
+}
+
+.week > span:first-child{
+    width: 40vw;
+}
+
+.week > span:nth-child(7){
+    width: 40vw;
+}
+
+.week > span:nth-child(8){
+    width: 20vw;
+}
+
+.week > span:last-child{
+    width: 20vw;
+}
+
+.notes {
+    height: inherit;
+    max-width: 25vw;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.notes > span:first-child{
+    height: 30vh;
+}
+
+.notes > span:last-child{
+    height: 30vh;
+}
+
+.container > span {
+    border: 1px black solid;
+}
+
+.notes > span {
+    border: 1px black solid;
+}

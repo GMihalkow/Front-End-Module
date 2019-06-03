@@ -1,0 +1,21 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.gallery {
+    width: 60rem;
+}
+
+.gallery > ul > li {
+    border: 1px solid black;
+    padding: 1rem;
+}
