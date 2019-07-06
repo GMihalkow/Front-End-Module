@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="wrapper">
+        <section class="img-wrapper">
+            <img src="../Requirements-and-Resources/image/image.png" alt="image">
+        </section>
+        <section class="info">
+            <header>
+                <h2>CALORIE CALCULATOR</h2>
+            </header>
+            <section class="buttons">
+                <section class="button-part bg-yellow">Standart units (US)</section>
+                <section class="button-part bg-gray">Metric units</section>
+            </section>
+            <form class="form-section">
+                <div class="form-input-wapper">
+                    <div>
+                        <label for="Gender">Gender</label>
+                        <select name="Gender" id="Gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Age">Age</label>
+                        <input id="Age" minlength="0" placeholder="Years..." name="Age" type="number">
+                    </div>
+                </div>
+                <div class="form-input-wapper">
+                    <label for="Weight">Weight</label>
+                    <input id="Weight" placeholder="Pounds..." name="Weight" type="number">
+                </div>
+                <div class="form-input-wapper">
+                    <div>
+                        <label for="Height">Height</label>
+                        <input id="Feet" minlength="0" placeholder="Feet..." name="Feet" type="number"/>
+                    </div>
+                    <div>   
+                        <input id="Inches" class="inches-input-box" minlength="0" placeholder="Inches..." name="Inches" type="number">
+                    </div>
+                </div>
+                <input type="submit" value="Calculate">
+            </form>
+        </section>
+    </section>
+</body>
+</html>

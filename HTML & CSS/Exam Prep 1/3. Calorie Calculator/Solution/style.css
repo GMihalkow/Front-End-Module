@@ -1,0 +1,166 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;   
+}
+
+.form-section > .form-input-wapper > div > .inches-input-box{
+    margin-top: 2.49rem;
+}
+
+.bg-yellow {
+    background-color: #e6e600;
+}
+
+.bg-gray {
+    background-color: #ccc;
+}
+
+.buttons {
+    width: 28rem;
+    display: flex;
+    flex: 0 0 auto;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+
+.form-section {
+    width: 28rem;
+    height: 26rem;
+}
+
+.form-input-wapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    width: 28rem;
+    height: 6.5rem;
+    margin: 0.5rem auto;
+    align-content: flex-end;
+}
+
+.wrapper {
+    display: flex;
+    background-color: #eee;
+    width: 60rem;
+    border: #777 solid 3px;
+    height: 37rem;
+    border-radius: 5px;
+    margin: 5rem auto;
+}
+
+.form-section > input[type='submit'] {
+    width: 28rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0bf;
+    font-weight: bold;
+    color: white;
+    padding: 0.7rem;
+    font-size: 22px;
+    margin: 1.5rem 0;
+}
+
+.buttons > .button-part {
+    width: 14rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+
+.wrapper > .img-wrapper {
+    width: 30rem;
+    height: 36.6rem;
+    overflow: hidden;
+}
+
+.form-input-wapper > div {
+    width: 13rem;
+}
+
+.form-input-wapper > label {
+    display: block;
+    width: 14rem;
+    padding: 0.5rem 0;
+    color: #000;
+    font-size: 22px;
+}
+
+.wrapper > .info {
+    padding: 1rem;
+    display: flex;
+    width: 30rem;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    color: #555;
+    align-content: flex-start;
+}
+
+.form-input-wapper > div:nth-child(even){
+    margin-left: auto;
+}
+.form-input-wapper > div:nth-child(odd){
+    margin-right: auto;
+}
+
+.form-section > input[type='submit']:hover {
+    cursor: pointer;
+}
+
+.form-input-wapper > div > label {
+    margin: 0.5rem auto;
+    display: block;
+    width: 14rem;
+    color: #000;
+    font-size: 22px;
+}
+
+.form-input-wapper > div > input, select:nth-child(even) {
+    margin: 0 auto;
+    border-radius: 5px;
+    outline: none;
+    font-style: italic;
+    border: #ccc solid 1px;
+    color: #555;
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 13rem;
+}
+
+.form-input-wapper > input[type='text'], input[type='number'] {
+    margin: 0 auto;
+    border-radius: 5px;
+    outline: none;
+    font-style: italic;
+    border: #ccc solid 1px;
+    color: #555;
+    font-size: 20px;
+    padding: 0.5rem;
+    width: 28rem;
+}
+
+.wrapper > .img-wrapper > img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper > .info > header {
+    width: 28rem;
+    height: 3rem;
+}
+
+.wrapper > .info > header > h2 {
+    font-size: 1.7em;
+    margin: 1rem 0;
+    width: 28rem;
+    text-align: center;
+}
