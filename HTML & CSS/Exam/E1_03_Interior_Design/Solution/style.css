@@ -1,0 +1,218 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto&display=swap');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.25;
+    font-family: 'Abril Fatface', cursive;
+    color: #333;
+}
+
+.wrapper {
+    width: 80rem;
+    height: 100rem;
+    margin: 0 auto;
+}
+
+.fa-pause {
+    color: #777;
+    float: right;
+    text-shadow: 1px 1px #333;
+}
+
+.upper-section {
+    position: relative;
+    height: 61rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.contact-inner-info {
+    width: 11rem;
+    margin: 0.5rem 0;   
+    font-size: 16px;
+}
+
+.contacts-form {
+    width: 50rem;
+    margin: 0 4rem;
+    padding: 0 1rem;
+}
+
+.custom-btn {
+    background-color: #666633;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.custom-input {
+    outline: none;
+    background-color: #aaa;
+    color: #fff;
+    width: 18rem;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.service-info {
+    margin-top: 1.5rem;
+    font-size: 18px
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.company-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 12rem;
+    width: 15rem;
+    box-shadow: 3px 3px 6px 1px #333;
+    margin: 3rem 4rem;
+    padding: 1rem;
+}
+
+.text-dark-gray {
+    color: #333;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.bottom-section {
+    display: flex;
+    width: 80rem;
+    height: 55rem;
+    flex: 0 0 auto;
+}
+
+.fa-arrow-circle-right {
+    color: #333;
+}
+
+.services {
+    padding: 4rem 5rem;
+}
+
+.services-section {
+    background-image: linear-gradient(to right, #eee, #fff);
+    width: 55rem;
+}
+
+.em-stat {
+    font-size: 70px;
+    color: #fff;
+}
+
+.stats {
+    line-height: 1;
+    margin-top: 9rem;
+}
+
+.stats:first-child {
+    margin-top: 2rem;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.statistics-section {
+    padding: 2rem;
+    background: #aaa;
+    width: 25rem;
+}
+
+.contact-info {
+    padding: 1.5rem 4rem;
+    width: 55rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+}
+
+.company-description-label {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    height: 18rem;
+    background-image: linear-gradient(to right, rgb(171, 171, 171, 1), #ddd);
+    width: 22rem;
+    box-shadow: 0px 0px 6px 1px #333;
+    margin: 2rem 3rem;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.contacts > h2 {
+    padding: 0 0 0.5rem 05rem;
+    border-bottom: 1.5px solid #333;
+}
+
+.custom-btn:hover {
+    cursor: pointer;
+}
+
+.custom-input::placeholder {
+    color: #fff;
+}
+
+.services-section > h2 {
+    font-size: 36px;
+}
+
+.company-description-label > p {
+    color: #fff;
+    text-align: end;
+    line-height: 1.4em;
+    padding: 2rem 0rem 1rem 1rem;
+    text-shadow: 1px 1px #333;
+    font-size: 18px;
+}
+
+.company-label > h2 {
+    border-bottom: #fff solid 2px;
+    margin: 1rem 0;
+    width: 80%;
+    padding-bottom: 0.6rem;
+    font-size: 34px;
+}
+
+.company-label > p {
+    color: #333;
+}
+
+.upper-section > img {
+    bottom: -30rem;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}

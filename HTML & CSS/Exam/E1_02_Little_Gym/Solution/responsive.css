@@ -1,0 +1,156 @@
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .site-main {
+        margin: 0;
+    }
+
+    .site-logo {
+        font-size: 1em;
+    }
+
+    .site-information {
+        font-size: 1em;
+        padding: 1rem;
+    }
+    
+    .site-logo img {
+        width: 6.25rem;
+        height: 6.1rem;
+    }
+
+    .site-post h2 {
+        font-size: 1em;
+    }
+
+    .site-post p {
+        font-size: 0.9em;
+    }
+
+    .site-information-text > h5 {
+        font-size: 1.5em;
+    }
+
+    .site-information-text > h2 {
+        font-size: 2.2em;
+    }
+
+    .site-information-text > p {
+        font-size: 1.0em;
+    }
+}
+
+@media screen and (max-width:  768px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .site-logo {
+        font-size: 1.3em;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .entry-header-container > h1.entry-header-title::first-letter {
+        font-size: 250%;
+    }
+
+    .entry-header-container > h1.entry-header-title {
+        font-size: 2em;
+    }
+
+    .entry-header-description {
+        font-size: 1em;   
+    }
+    
+    .site-information {
+        display: block;
+    }
+    
+    .site-information-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .entry-description {
+        font-size: 0.85em;
+        margin: 0 auto;
+    }
+    
+    .entry-subtitle {
+        font-size: 1.3em;
+    }
+
+    .site-footer {
+        display: block;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .site-form {
+        margin-top: 0;
+    }
+
+    .entry-title {
+        font-size: 2em;
+    }
+    
+    .site-posts {
+        display: block;
+    }
+
+    .site-blog-container {
+        margin-top: 0;
+    }
+
+    .site-logo img {
+        width: 7em;
+        height: 6.5em;
+    }
+
+    .site-posts > .site-post {
+        width: 65%;
+        margin: 2rem auto;
+    }
+
+    .site-information-text > h5 {
+        font-size: 1.5em;
+    }
+
+    .site-information-text > h2 {
+        font-size: 2.2em;
+    }
+
+    .site-information-text > p {
+        font-size: 1.0em;
+    }
+
+    .site-posts > .site-post > h2 {
+        font-size: 0.8em;
+    }
+
+    .site-posts > .site-post > p {
+        font-size: 0.7em;
+    }
+
+    .site-form-container > form > p {
+        display: block;
+    }
+
+    .site-form-container > form > button {
+        margin: 0 auto;
+    }
+
+    .site-form-container > form > p > input {
+        width: 70%;
+        margin-top: 0.5rem;
+    }
+
+    .site-form-container > form > p > label, input {
+        display: block;
+    }
+}   

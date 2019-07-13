@@ -1,0 +1,68 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.google.com/specimen/Ubuntu');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.card {
+    background-image: url('../Requirements-and-Resources/images/image.jpg');
+    background-size: cover;
+    height: 20rem;
+    width: 75rem;
+    margin: 7rem auto;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 38, 77, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bolder-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.inner {
+    color: #fff;
+    display: flex;
+    width: 75rem;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.fas {
+    color: #ff9900;
+}
+
+.inner > div {
+    width: 17rem;
+    text-align: center; 
+}
+
+.layer > .fa-times {
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+.inner > div > p {
+    margin: 0.5rem;
+}
