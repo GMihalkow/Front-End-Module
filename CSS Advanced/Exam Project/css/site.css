@@ -1,9 +1,0 @@
-@import url('variables.css');
-@import url('typography.css');
-
-* *:after *:before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
